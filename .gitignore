@@ -1,0 +1,14 @@
+# Ignore these directories
+model/
+venv/
+.git/
+.vscode/
+.idea/
+
+# Ignore these files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.swp
