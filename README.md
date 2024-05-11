@@ -1,6 +1,6 @@
 # Llama 3 8B Fine-Tuning - Cosmic Fusion Dynamics
 
-Use this repo together with the <a href="https://www.youtube.com/channel/UCTvINngXY_Tz-ERl_AcGbrg">YouTube demo</a> on fine-tuning Llama 3 8B LLM with a small dataset of a fictitious company called Cosmic Fusion Dynamics using a heavily customized Unsloth Colab notebook.
+Use this repo together with the <a href="https://www.youtube.com/@scott_ingram">YouTube demo</a> on fine-tuning Llama 3 8B LLM with a small dataset of a fictitious company called Cosmic Fusion Dynamics using a heavily customized Unsloth Colab notebook.
 
 Many thanks to Unsloth for their oustanding work on quantization and LoRA! Here is <a href="https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp?usp=sharing">Unsloth's original work</a>.
 
@@ -53,4 +53,4 @@ This project contains a comma-separated-values (CSV) dataset for the company Cos
 
 There are also several helper shell scripts and Ollama modelfile in the repo for downloading the fine-tuned model, importing it into Ollama and running it.
 
-We cover that in the <a href="https://www.youtube.com/channel/UCTvINngXY_Tz-ERl_AcGbrg">YouTube demo</a>.
+We cover that in the <a href="https://www.youtube.com/@scott_ingram">YouTube demo</a>.
