@@ -7,4 +7,4 @@ brew install git-lfs
 git lfs install
 # Download the pre-trained model from Hugging Face
 # Clone the repo into a new 'model' directory
-git lfs clone https://huggingface.co/scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf-80-steps model
+git lfs clone https://huggingface.co/scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf model
