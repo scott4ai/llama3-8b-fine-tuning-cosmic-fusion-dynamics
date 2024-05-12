@@ -1,10 +1,18 @@
 # If you want to download Hugging Face models with the command line,
 # install Git LFS on your system to be able to download large files.
 # See https://git-lfs.com/
-# On Mac, install with 'brew install git-lfs',
+# On Mac, install with brew even if you have Xcode git
+brew install git
+# After installing, open a NEW terminal window, check git version
+git --version
+which git
+# Now install git-lfs with brew for downloading large files
 brew install git-lfs
-# followed by 'git lfs install' to initialize it
+# Initialize LFS
 git lfs install
-# Download the pre-trained model from Hugging Face
-# Clone the repo into a new 'model' directory
-git lfs clone https://huggingface.co/scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf model
+# Update Git hooks.
+sudo git lfs install --system
+# With SSH, clone the pre-trained model repo from HF into the 'model2' folder.
+# git clone git@hf.co:scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf model
+# With HTTPS, clone the pre-trained model repo from HF into the 'model' folder.
+git clone https://huggingface.co/scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf model
