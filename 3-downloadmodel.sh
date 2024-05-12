@@ -12,7 +12,7 @@ brew install git-lfs
 git lfs install
 # Update Git hooks.
 sudo git lfs install --system
-# With SSH, clone the pre-trained model repo from HF into the 'model2' folder.
+# With SSH, clone the pre-trained model repo
 # git clone git@hf.co:scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf model
-# With HTTPS, clone the pre-trained model repo from HF into the 'model' folder.
+# With HTTPS, clone the pre-trained model repo
 git clone https://huggingface.co/scott4ai/llama3-8b-cosmic-fusion-dynamics-f16-gguf model
