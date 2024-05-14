@@ -1,4 +1,4 @@
-// Model trained on Cosmic Fusion Dynamics dataset.
+# Model trained on Cosmic Fusion Dynamics dataset.
 FROM model/llama3-8b-cosmic-fusion-dynamics-f16-gguf-unsloth.F16.gguf
 
 TEMPLATE """{{ if .System }}<|start_header_id|>system<|end_header_id|>
